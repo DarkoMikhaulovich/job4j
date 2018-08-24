@@ -1,5 +1,5 @@
-# Repository Darko Mikhailovich
+# Репозиторий Darko Mikhailovich
 
-I'm taking a Job4j course. I plan to pass it at the end of 2018.
+Я прохожу обучение по курсу Job4j. Планирую его пройти в конце 2018 года.
 
-Below are the most interesting projects that I have implemented.
+Ниже находятся наиболее интерсные проекты, которые я реализовал.
