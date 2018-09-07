@@ -1,6 +1,6 @@
 package ru.job4j.calculate;
 /**
-* <b><h3>Calculate - калькулятор</h3></b>
+* <b>Calculate - калькулятор</b>
 * @author <i>Darko Mikhailovich</i> (sergey51979@mail.ru)
 */
 public class Calculate{
