@@ -5,13 +5,13 @@ package ru.job4j.calculate;
  * @version $Id$
  * @since 0.1
  */
-public class Calculate{
+public class Calculate {
 /**
  * <b>Вывод строки на консоль.</b>
  * Main
  * @param args - args.
  */
-	public static void main(String[] args){
+	public static void main(String[] args) {
 			System.out.println("Hello World");
 	}
 	/**

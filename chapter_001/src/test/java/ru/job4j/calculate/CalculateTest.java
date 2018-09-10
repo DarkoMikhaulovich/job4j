@@ -16,7 +16,7 @@ public class CalculateTest {
 	* Test echo.
 	*/
 	@Test
-	public void whenTakeNameThenTreeEchoPlusName(){
+	public void whenTakeNameThenTreeEchoPlusName() {
 		String input = "Darko Mikhailovich";
 		String expect = "Echo, echo, echo : Darko Mikhailovich"; 
 		Calculate calc = new Calculate();
