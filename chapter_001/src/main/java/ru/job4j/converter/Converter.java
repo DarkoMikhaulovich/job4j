@@ -30,7 +30,6 @@ public class Converter {
      */
     public int EuroToRuble(int value) {
         return value*70;
-
     }
 
     /**
@@ -41,6 +40,4 @@ public class Converter {
     public int DollarToRuble(int value) {
         return value*60;
     }
-
-
 }
