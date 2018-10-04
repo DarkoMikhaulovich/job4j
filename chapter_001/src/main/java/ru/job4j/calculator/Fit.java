@@ -17,7 +17,7 @@ public class Fit {
     /**
      * Идеальный вес для женщины.
      * @param height Рост.
-     * @return идеальный вес.
+     * @return идеальный вес.'
      */
     public double womanWeight(double height) {
         return (height - 110) * 1.15;
