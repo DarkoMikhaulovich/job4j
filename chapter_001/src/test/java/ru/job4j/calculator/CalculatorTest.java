@@ -18,7 +18,7 @@ public class CalculatorTest {
     @Test
     public void when2Div2Then1() {
         Calculator calc = new Calculator();
-        calc.add(2D, 2D);
+        calc.div(2D, 2D);
         double result = calc.getResult();
         double expected = 1D;
         assertThat(result, is(expected));
@@ -27,7 +27,7 @@ public class CalculatorTest {
     @Test
     public void whenMult2On2Then4() {
         Calculator calc = new Calculator();
-        calc.add(2D, 2D);
+        calc.multiple(2D, 2D);
         double result = calc.getResult();
         double expected = 4D;
         assertThat(result, is(expected));
@@ -36,7 +36,7 @@ public class CalculatorTest {
     @Test
     public void when2Minus1Then1() {
         Calculator calc = new Calculator();
-        calc.add(2D, 1D);
+        calc.subtract(2D, 1D);
         double result = calc.getResult();
         double expected = 1D;
         assertThat(result, is(expected));
