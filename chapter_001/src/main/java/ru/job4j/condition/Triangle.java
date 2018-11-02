@@ -27,8 +27,8 @@ public class Triangle {
      */
 
         public double period(double ab, double ac, double bc) {
-            double half_area = (ab + ac + bc)/2;
-            return half_area;
+            double halfArea = (ab + ac + bc) / 2;
+            return halfArea;
         }
 
     /**
@@ -57,7 +57,7 @@ public class Triangle {
      * @return
      */
     private boolean exist(double ab, double ac, double bc) {
-        if (((ab + ac) > bc) || ((ab + bc) > ac) || ((ab + bc) > ac)){
+        if (((ab + ac) > bc) || ((ab + bc) > ac) || ((ab + bc) > ac)) {
             return true;
         } else {
             return false;
