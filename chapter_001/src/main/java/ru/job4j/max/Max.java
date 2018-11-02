@@ -10,10 +10,22 @@ public class Max {
      * @return результат нахождения максимума.
      */
     public int max(int first, int second) {
-        /*int result;
+        int result;
         result = (first > second) ? first : second;
         return result;
-        */
-        return(first > second) ? first: second;
     }
+
+    /**
+     * Функция максимума из двух чисел.
+     * @param first,second,third первое, второе и третье число
+     * @return результат нахождения максимума из трех чисел.
+     */
+    public int max3(int first, int second, int third) {
+        int temp = this.max(first ,second);
+        int temp = this.max(first ,third);
+        int temp = this.max(second ,third);
+        return temp;
+    }
+
 }
+
