@@ -1,5 +1,7 @@
 package ru.job4j.condition;
 
+import org.jetbrains.annotations.Contract;
+
 public class Triangle {
     private Point a;
     private Point b;
@@ -24,9 +26,10 @@ public class Triangle {
      * @return Периметр.
      */
 
-    public double period(double ab, double ac, double bc) {
-        return (ab + ac + bc) / 2;
-    }
+        public double period(double ab, double ac, double bc) {
+            double half_area = (ab + ac + bc)/2;
+            return half_area;
+        }
 
     /**
      * Метод должен вычислить площадь треугольника.
@@ -54,6 +57,10 @@ public class Triangle {
      * @return
      */
     private boolean exist(double ab, double ac, double bc) {
-        return false;
+        if (((ab + ac) > bc) || ((ab + bc) > ac) || ((ab + bc) > ac)){
+            return true;
+        } else {
+            return false;
+        }
     }
 }

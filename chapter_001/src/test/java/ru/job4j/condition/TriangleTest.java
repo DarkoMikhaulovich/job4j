@@ -10,9 +10,13 @@ public class TriangleTest {
         Point a = new Point(0, 0);
         Point b = new Point(0, 2);
         Point c = new Point(2, 0);
+        // Создаем объект треугольник и передаем в него объекты точек.
         Triangle triangle = new Triangle(a, b, c);
+        // Вычисляем площадь.
         double result = triangle.area();
-        double expected = 2D;
-        assertThat(result, closeTo(expected, 2D));
+        // Задаем ожидаемый результат.
+        double expected = 2d;
+        //Проверяем результат и ожидаемое значение.
+        assertThat(result, closeTo(expected, 0.1));
     }
 }
