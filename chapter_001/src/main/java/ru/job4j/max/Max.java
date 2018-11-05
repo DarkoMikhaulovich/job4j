@@ -21,9 +21,9 @@ public class Max {
      * @return результат нахождения максимума из трех чисел.
      */
     public int max(int first, int second, int third) {
-         int temp = this.max(first, second);
-         temp = this.max(first, third);
-         temp = this.max(second, temp);
+         int temp;
+         temp = this.max(first, second);
+         temp = this.max(third, temp);
         return temp;
     }
 
