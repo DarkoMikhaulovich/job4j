@@ -17,15 +17,23 @@ public class Max {
 
     /**
      * Функция максимума из двух чисел.
-     * @param first,second,third первое, второе и третье число
+     * @param first, second, third первое, второе и третье число
      * @return результат нахождения максимума из трех чисел.
      */
-    public int max3(int first, int second, int third) {
-        int temp = this.max(first ,second);
-        int temp = this.max(first ,third);
-        int temp = this.max(second ,third);
+    public int max(int first, int second, int third) {
+         int temp = this.max(first, second);
+         temp = this.max(first, third);
+         temp = this.max(second, temp);
         return temp;
     }
+
+    /*Проверка кода
+    public static void main(String[] args) {
+        Max maxim = new Max();
+        int result = maxim.max(5,4,10);
+        System.out.println(result);
+    }
+    */
 
 }
 
