@@ -15,10 +15,10 @@ public class Board {
     public String paint(int width, int height) {
         StringBuilder screen = new StringBuilder();
         String ln = System.lineSeparator();
-        for (int i =0; i < height; i++) {
-            for (int n =0; n < width; n++) {
+        for (int i = 0; i < height; i++) {
+            for (int n = 0; n < width; n++) {
                 // Условие при котором выводится Х, иначе пробел
-                if ((i+n)%2 == 0) {
+                if ((i + n) % 2 == 0) {
                     screen.append("X");
                 } else {
                     screen.append(" ");
